@@ -1,0 +1,192 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+}
+.navbar-brand{
+    font-size: 30px;
+    border-bottom: 3px solid #ffbf00;
+}
+.navbar-brand:hover{
+    transition: 0.3s ease;
+    color: #ffc107 !important;
+}
+.nav-link {
+    border-bottom: 3px solid #ffbf00;
+    color: #ffffff !important;
+    font-size: 20px;
+}
+
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+.nav-link:hover {
+    transition: 0.3s ease;
+    color: #ffc107 !important;
+}
+.navbar .dropdown-menu {
+    background-color: #1f1f1f;
+    border-bottom: 2px solid #ffbf00;
+}
+
+.navbar .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar .dropdown-item:hover {
+    transition: all 0.3s ease;
+    color: #ffc107;
+    background-color: #333;
+}
+.card {
+    border-radius: 0.5rem;
+    background-color: #1f1f1f;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card img {
+    max-width: 100%;
+    filter: grayscale(90%);
+}
+
+.card img:hover {
+    transition: 0.4s ease;
+    filter: grayscale(0%);
+}
+
+.card-title {
+    color: #ffc107;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.card-text {
+    align-items: left;
+    color: #cccbcb;
+    margin-bottom: 0.5rem;
+}
+
+.card-text:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffc107 !important;
+}
+.social{
+    padding-left: 15px;
+}
+.social-icons a i {
+    margin: 0;
+    padding: 0;
+    color: #cccbcb;
+    font-size: 1.2rem;
+}
+
+.social-icons a i:hover {
+    transition: 0.3s ease;
+    color: #ffc107;
+}
+.Resume-section , .Experience , .skill{
+    padding: 1.3rem 1.5rem;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.Resume-section h2 {
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ffc107;
+    font-size: 30px;
+}
+.Resume-section h2:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffc107;
+}
+.Resume-section h3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 22px;
+}
+.Resume-section h3:hover{
+    color: #cccbcb;
+    transition: 0.3s ease;
+}
+.Resume-section h5{
+    font-size: 20px;
+}
+.Resume-section h5:hover{
+    color: #ffc107;
+    transition: 0.3s ease;
+}
+.Resume-section p , .Resume-section span{
+    color: #cccbcb;
+    font-size: 15px;
+}
+.Resume-section p:hover, .Resume-section span:hover{
+    color: #fff;
+    transition: 0.3s ease;
+}
+.Experience h3{
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ffc107;
+    font-size: 30px;
+}
+.Experience h3:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffc107;
+}
+.Experience h5 a {
+    text-decoration: none;
+    color: #fff;
+}
+.Experience h5{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.Experience h5 a:hover{
+    color: #ffc107;
+    transition: 0.3s ease;
+}
+.Experience span , .Experience p{
+    color: #cccbcb;
+    font-size: 15px;
+}
+.Experience span:hover , .Experience p:hover{
+    color: #fff;
+    transition: 0.3s ease;
+}
+.progress-bar {
+    background-color: #f6b432;
+}
+.skill h3{
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ffc107;
+    font-size: 30px;
+}
+.skill h3:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffc107;
+}
+.skill-container {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.skill-title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
